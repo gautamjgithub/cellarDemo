@@ -14,7 +14,7 @@ $app->delete('/wines/:id',	'deleteWine');
 $app->run();
 
 // testing Git repository
-
+// making one more commit
 function getWines() {
 	$sql = "select * FROM wine ORDER BY name";
 	try {
