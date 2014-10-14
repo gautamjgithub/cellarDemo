@@ -15,6 +15,7 @@ $app->run();
 
 // testing Git repository
 // making one more commit
+// making additional commit
 function getWines() {
 	$sql = "select * FROM wine ORDER BY name";
 	try {
